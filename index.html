@@ -7,17 +7,16 @@
 	<link rel="stylesheet" href="./main.css">
 </head>
 
+
 <body class='container'>
 <h1 class="jumbotron"> Welcome to my ADVENTURE </h1>
 	
-
-	<input type='text' id ="firstInput" onkeydown="if (event.keyCode == 13) document.getElementById('firstButton').click()"></input>
+	<input type='text' id ="firstInput" onkeydown= "arrowfunction();"></input>
 	
 	<button type="button"  id="firstButton" class="btn btn-default" onclick="myFunction();">Submit</button>
 	
  
-
-	<table class='table table-bordered'>
+	<table class='table'>
 	<tr>
 	<td id="00"></td>
 	<td id="10"></td>
@@ -36,13 +35,12 @@
 
 	</table>
 
-</body>
+<input type="button" value="Generate a table." onclick="generate_table()">
 
+</body>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
-
-<script src="jave.js">
-</script>
+<script src="jave.js"></script>
+<script src = "grid.js"></script>"
 </html>

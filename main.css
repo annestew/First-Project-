@@ -1,8 +1,19 @@
-td {
+.table {
+	border-collapse: separate;
+	background-color: purple;
+	border-color: red green blue yellow;
+	border-width: 10px;
+}
 
+td {
 	height: 300px;
 	width: 200px;
+	
+}
 
+.jumbotron {
+	color: #44fd55;
+	text-decoration: underline;
 }
 
 
