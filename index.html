@@ -9,7 +9,7 @@
 
 
 <body class='container'>
-<h1 class="jumbotron"> Welcome to my ADVENTURE </h1>
+<h1 class="jumbotron"> Derp Dog </h1>
 	
 	<input type='text' id ="firstInput" onkeydown= "arrowfunction();"></input>
 	
@@ -22,6 +22,7 @@
 	<td id="10"></td>
 	<td id="20"></td>
 	</tr>
+
 	<tr>
 	<td id="01"></td>
 	<td id="11"></td>
@@ -35,12 +36,36 @@
 
 	</table>
 
-<input type="button" value="Generate a table." onclick="generate_table()">
+
+<!-- ////////////Another Grid////////// -->
+
+<p>Click the buttons to create and delete row(s) for the table.</p>
+
+<table id="myTable">
+  <tr>
+    <td>Row1 cell1</td>
+    <td>Row1 cell2</td>
+  </tr>
+  <tr>
+    <td>Row2 cell1</td>
+    <td>Row2 cell2</td>
+  </tr>
+  <tr>
+    <td>Row3 cell1</td>
+    <td>Row3 cell2</td>
+  </tr>
+</table>
+<br>
+
+<button onclick="myCreateFunction()">Create row</button>
+<button onclick="myDeleteFunction()">Delete row</button>
+
 
 </body>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="jave.js"></script>
-<script src = "grid.js"></script>"
+<script src = "grid.js"></script>
+
 </html>

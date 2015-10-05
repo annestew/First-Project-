@@ -1,8 +1,14 @@
+.container {
+	border-width:20px;
+	background-color: yellow;
+	 
+}
+
 .table {
 	border-collapse: separate;
 	background-color: purple;
-	border-color: red green blue yellow;
-	border-width: 10px;
+	padding: 30px;
+	 
 }
 
 td {
@@ -14,6 +20,7 @@ td {
 .jumbotron {
 	color: #44fd55;
 	text-decoration: underline;
+	background-color: purple;
 }
 
 
@@ -23,3 +30,6 @@ td {
     margin-left: auto;
     margin-right: auto;
     }
+
+  table, td {
+    border: 1px solid black;
